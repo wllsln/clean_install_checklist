@@ -4,9 +4,12 @@
 
 * Backup Data
   * Browser Profiles
-    * [ ] Chrome
-    * [ ] Chrome Extensions
-    * [ ] Firefox
+    * Chrome
+      * [ ] Save open sessions to Toby
+      * [ ] Export bookmarks
+      * [ ] Log out of accounts
+    * Firefox
+      * [ ] Export bookmarks
   * Desktop
   * Documents
   * Downloads
@@ -27,6 +30,7 @@
     * [ ] DaVinci Resolve - export library
     * [ ] Day One - document storage location, export to archival format, store in OneDrive
     * [ ] iDrive
+    * [ ] ProPresenter 6 - verify how to sync library
     * [ ] Symantec VIP Access - call in to disable
 * Homebrew Configuration
   * Identify configuration and copy over
@@ -37,34 +41,59 @@
   * Configuration
     * [ ] Homebrew `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     * [ ] MacStore CLI  `brew install mas-cli/tap/mas`
-    * [ ] Update brewfile with software to install
+    * [ ] Update brewfile with software to install (e.g. tmux)
     * [ ] Update wllsln/my_setup script
   * Software (should be in brewfile)
+    * [ ] Adobe Creative Cloud `brew install --cask adobe-creative-cloud`
     * [ ] Avira `brew install --cask avira-antivirus`
     * [ ] Dropbox `brew install --cask dropbox`
     * [ ] iDrive `brew install --cask idrive`
     * [ ] Chrome `brew install --cask google-chrome`
+    * [ ] Discord `brew install --cask discord`
     * [ ] Firefox `brew install --cask firefox`
+    * [ ] Microsoft Office `brew install --cask microsoft-office`
+    * [ ] OBS `brew install --cask obs`
+    * [ ] OneDrive `brew install --cask onedrive`
     * [ ] Rectangle `brew install --cask rectangle`
+    * [ ] Slack `brew install --cask slack`
+    * [ ] Spotify `brew install --cask spotify`
+    * [ ] Sublime Text `brew install --cask sublime-text`
+    * [ ] VLC `brew install --cask vlc`
     * [ ] Zoom `brew install --cask zoom`
   * For Development (should be in brewfile)
+    * [ ] iTerm2 `brew install --cask iterm2`
     * [ ] Postman `brew install --cask postman`
 * Software Manual Installation
   * Development
-    * [ ] Sublime Text 3
     * [ ] Package Control for Sublime Text 3 `https://packagecontrol.io`
+  * Productivity
+    * [ ] Adobe Lightroom Classic
+    * [ ] Adobe Photoshop
+    * [ ] Microsoft Excel
+    * [ ] Microsoft OneNote
+    * [ ] Microsoft PowerPoint
+    * [ ] Microsoft Word
   * Security
     * [ ] Dashlane
   * Utilities
+    * [ ] Amphetamine
+    * [ ] Blackmagic ATEM Switchers
+    * [ ] Blackmagic Desktop Video
     * [ ] Covenant Eyes
     * [ ] DaVinci Resolve
+    * [ ] Display Menu
+    * [ ] ProPresenter 6
 * Software Manual Configuration
   * iTunes
 * Restore backup
   * Browser Profiles
-    * [ ] Chrome
-    * [ ] Chrome Extensions
-    * [ ] Firefox
+    * Chrome
+      * [ ] Log into Personal and Prophet accounts
+      * [ ] Install Chrome extensions: Toby, SmileAlways, Adblock, AODocs
+      * [ ] Load bookmarks (if necessary)
+      * [ ] Restart Toby sessions
+    * Firefox
+      * [ ] Load bookmarks
   * Desktop
   * Documents
   * Downloads
@@ -72,18 +101,21 @@
   * Music
   * Photos
 * Other configuration
+  * [ ] Sync iDrive
   * [ ] Add Chinese language support
   * [ ] Turn on FireVault
   * [ ] Disable Siri
+  * ProPresenter 6
+    * [ ] Create new ProPre user
+    * [ ] Sync Propresenter Library
+    * [ ] Turn off screensaver
+    * [ ] Enable Amphetamine on Startup
 
 ## Future Investigation
 
 * For Development
   * Dash
-  * Screen Multiplexing (e.g. tmux)
-  * iTerm2
-  * Install `oh-my-zsh`  https://github.com/robbyrussell/oh-my-zsh
-  * Shell
-    * maximum-awesome: `https://github.com/square/maximum-awesome`
-    * `https://www.cyberciti.biz/faq/howto-fix-macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra/`
-    * zsh-syntax-highlighting: `https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md`
+  * maximum-awesome: `https://github.com/square/maximum-awesome`
+  * `https://www.cyberciti.biz/faq/howto-fix-macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra/`
+  * zsh-syntax-highlighting: `https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md`
+  * `https://github.com/hunttom/bodega/blob/master/developer_setup/dev_env.sh`
