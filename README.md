@@ -22,7 +22,8 @@
   * Default Applications
     * [ ] iCloud
     * [ ] iTunes - [Deauthorize Apple ID](https://support.apple.com/en-us/HT201251)
-    * [ ] Keychains - turn on sync to iCloud
+    * [ ] Notes App
+    * [ ] Keychains - turn on sync to iCloud, copy login.keychain-db from User/Library/Keychains
   * Installed Applications
     * [ ] Avira
     * [ ] Covenant Eyes - log out
